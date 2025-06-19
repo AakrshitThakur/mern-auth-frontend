@@ -35,7 +35,7 @@ function Dashboard() {
   ]);
   React.useEffect(() => {
     // Replace this URL with your actual API endpoint
-    fetch("http://localhost:5000/api/dashboard", {
+    fetch("https://mern-auth-backend-9fa2.onrender.com/api/dashboard", {
       method: "GET",
       credentials: "include",
     })

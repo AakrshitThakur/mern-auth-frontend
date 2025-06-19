@@ -9,7 +9,7 @@ function Navbar() {
   const jwtToken = localStorage.getItem("user");
 
   const handleLogout = () => {
-    fetch("http://localhost:5000/api/auth/logout", {
+    fetch("https://mern-auth-backend-9fa2.onrender.com/api/auth/logout", {
       method: "GET",
       credentials: "include",
     })

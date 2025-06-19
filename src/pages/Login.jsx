@@ -26,7 +26,7 @@ function Login() {
       setError(error);
     } else {
       try {
-        fetch("http://localhost:5000/api/auth/login", {
+        fetch("https://mern-auth-backend-9fa2.onrender.com/api/auth/login", {
           method: "POST", // Specifies the request method
           credentials: "include",
           headers: {

@@ -33,7 +33,7 @@ function Register() {
       setError(error);
     } else {
       try {
-        fetch("http://localhost:5000/api/auth/register", {
+        fetch("https://mern-auth-backend-9fa2.onrender.com/api/auth/register", {
           method: "POST", // Specifies the request method
           credentials: "include",
           headers: {
