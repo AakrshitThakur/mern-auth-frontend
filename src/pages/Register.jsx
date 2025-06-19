@@ -76,7 +76,7 @@ function Register() {
   return (
     <div id="register-page">
       <div className="min-h-screen bg-gradient-to-b from-teal-200 to-teal-300 flex items-center justify-center">
-        <div className="relative w-full max-w-lg bg-gray-800 p-8 rounded-2xl shadow-lg">
+        <div className="relative sm:max-w-lg w-full max-w-xs bg-gray-800 p-8 rounded-2xl shadow-lg">
           {/* Tab */}
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-teal-400 px-6 py-2 rounded-full text-gray-900 font-semibold">
             SIGN IN

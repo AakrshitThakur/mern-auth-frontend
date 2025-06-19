@@ -72,7 +72,7 @@ function Dashboard() {
   return (
     <div id="dashboard">
       <div className="min-h-screen bg-gradient-to-b from-teal-200 to-teal-300 flex items-center justify-center">
-        <div className="w-full max-w-3xl">
+        <div className="sm:max-w-3xl w-full max-w-xs">
           <Paper sx={{ width: "100%", overflow: "hidden" }}>
             <TableContainer sx={{ maxHeight: 440 }}>
               <Table stickyHeader aria-label="sticky table">
